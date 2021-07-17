@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: whitesmoke;
+	font-family: 'Nunito', sans-serif;
+	font-size: 0.9em;
+}
+
+.nav-login {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.nav-login:hover {
+	color: yellow;
+}
+
+.section {
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.carousel .carousel-item {
+	height: 400px;
+}
+
+.carousel-item img {
+	position: absolute;
+	object-fit:cover;
+	top: 0;
+	left: 0;
+	min-height: 400px;
+}
+
+.list-group-item .nav-link {
+	padding: 0;
+}
+
+footer {
+	margin-top: 30px;
+	width: 100%;
+	padding: 30px;
+	background: #3c8dbc;
+	color: white;
+	text-align: center;
+	vertical-align: center;
+}
+
+.my-padding {
+	padding: 0 2.5rem;
+}
+
+@media screen and (max-width: 991px){
+	.my-padding {
+		padding: 0 1.5rem;
+	}
+}
+
+.item-pengumuman {
+	text-decoration: none;
+}
+
+.item-pengumuman:hover {
+	color: #72afd2;
+}
